@@ -1,0 +1,9 @@
+div {
+	font-weight:bold;
+	background-color:WhiteSmoke;
+	border:1px solid black;
+	position:absolute;
+	text-align:center;
+	width:40px;
+	height:40px;
+	}
