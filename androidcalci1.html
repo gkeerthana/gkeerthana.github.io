@@ -1,0 +1,178 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="androidcalci1.css" />
+<script language="javascript" type="text/javascript" src="androidcalci1.js">resettext() </script>
+
+<style type="text/css">
+
+	#outline{
+	top:0px;
+	left:0px;
+	width:350px;	
+	height:460px;
+	border:1px solid black;
+	}
+	
+	#screen{
+	top:0px;
+	left:0px;
+	height:100px;
+	width:350px;
+	border:1px solid black;
+	text-align:right;
+	background-color:White;
+	color:black;
+	}
+	
+	#seven {
+	top:140px;
+	left:1px;
+	}  
+	
+	#eight {
+	top:140px;
+	left:75px;
+	}  
+	
+	#nine {
+	top:140px;
+	left:150px;
+	}  
+	
+	#four {
+	top:230px;
+	left:1px;
+	}  
+	
+	#five {
+	top:230px;
+	left:75px;
+	}  
+	
+	#six {
+	top:230px;
+	left:150px;
+	} 
+	
+	#one {
+	top:320px;
+	left:1px;
+	}  
+
+	#two {
+	top:320px;
+	left:75px;
+	} 
+	
+	#three {
+	top:320px;
+	left:150px;
+	}
+	
+	#dot {
+	top:410px;
+	left:1px;
+	width:75px;
+	height:20px;
+	} 
+	
+	#zero {
+	top:410px;
+	left:75px;
+	width:75px;
+	height:20px;
+	}
+	
+	#equal {
+	top:410px;
+	left:150px;
+	width:75px;
+	height:20px;
+	}  
+	
+	#plain1{
+	top:101px;
+	left:225px;
+	width:75px;
+	height:360px;
+	background-color:#858552;
+	}
+	
+	#delchar {
+	top:140px;
+	left:225px;
+	height:72px;
+	background-color:#858552;
+	}
+	
+	#divi {
+	top:212px;
+	left:225px;
+	height:72px;
+	background-color:#858552;
+	}  
+	
+	#mult {
+	top:284px;
+	left:225px;
+	height:65px;
+	background-color:#858552;
+	}  
+	
+	#subt {
+	top:345px;
+	left:225px;
+	height:60px;
+	background-color:#858552;
+	}  
+
+	#addi {
+	top:410px;
+	left:225px;
+	height:20px;
+	background-color:#858552;
+	}  
+	
+	#plain{
+	top:101px;
+	left:301px;
+	width:50px;
+	height:360px;
+	background-color:#0DFF9E;
+	}
+	
+	
+	
+	
+</style>
+
+</head>
+
+<body>
+    
+	<div id="outline"> </div>
+	<div id="screen"> </div>
+	<div id="plain">  </div>
+	<div id="plain1">  </div>
+	<div id="delchar" onclick="delchar()"> DEL </div>
+	<div id="zero" onclick="settext('0')"> 0 </div>
+	<div id="one" onclick="settext('1')"> 1 </div>
+	<div id="two" onclick="settext('2')"> 2 </div>
+	<div id="three"onclick="settext('3')"> 3 </div>
+	<div id="four" onclick="settext('4')"> 4 </div>
+	<div id="five" onclick="settext('5')"> 5 </div>
+	<div id="six" onclick="settext('6')"> 6 </div>
+	<div id="seven" onclick="settext('7')"> 7 </div>
+	<div id="eight"onclick="settext('8')"> 8 </div>
+	<div id="nine" onclick="settext('9')"> 9 </div>
+	<div id="divi" onclick="settext('/')"> / </div>
+	<div id="mult" onclick="settext('*')"> X </div>
+	<div id="addi" onclick="settext('+')"> + </div>
+	<div id="subt" onclick="settext('-')"> - </div>
+	<div id="equal" onclick="evaluateexp()"> = </div>
+	<div id="dot" onclick="settext('.')"> . </div>
+	
+	
+</body>
+</html>
